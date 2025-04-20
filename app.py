@@ -14,7 +14,7 @@ st.sidebar.title("Filtros")
 # Carregar banco de dados
 @st.cache_data
 def load_data():
-    url = "https://drive.google.com/file/d/1Qc-N2oHIhz-Mg5zoTN7jy6_QANUDMzQ4/view?usp=drive_link"  # <- vamos corrigir isso depois
+    url = "https://drive.google.com/uc?id=1Qc-N2oHIhz-Mg5zoTN7jy6_QANUDMzQ4"
     df = pd.read_csv(url)
     return df
 
